@@ -1,0 +1,6 @@
+out/
+.gradle/
+*.apk
+*.iml
+local.properties
+

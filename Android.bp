@@ -1,0 +1,12 @@
+android_app {
+    name: "PixelRouterService",
+    srcs: ["app/src/main/java/**/*.java"],
+    manifest: "app/src/main/AndroidManifest.xml",
+    resource_dirs: ["app/src/main/res"],
+    platform_apis: true,
+    certificate: "platform",
+    privileged: true,
+    system_ext_specific: true,
+    optimize: { enabled: false },
+}
+

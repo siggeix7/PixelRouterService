@@ -1,0 +1,6 @@
+<permissions>
+    <privapp-permissions package="org.example.pixelrouter">
+        <permission name="android.permission.TETHER_PRIVILEGED" />
+    </privapp-permissions>
+</permissions>
+
